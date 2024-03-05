@@ -1,6 +1,6 @@
 This is my .config/nvim in MacOs or Linux.
 
-## Setup environments 
+## lsp config 
 1. lua-language-server
     * macos: brew install lua-language-server
     * ubuntu: <br>
@@ -16,4 +16,6 @@ This is my .config/nvim in MacOs or Linux.
         ./3rd/luamake/luamake rebuild <br>
         echo 'export PATH="$HOME/lua-language-server/bin:$PATH"' >> ~/.zshrc
         source ~/.zshrc
-2.      
+2. npm i typescript-language-server -g 
+3. npm install -g vscode-html-languageserver-bin
+4. 
